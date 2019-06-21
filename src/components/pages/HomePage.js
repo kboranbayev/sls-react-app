@@ -11,13 +11,13 @@ class HomePage extends React.Component {
     render() {
       return (
         <div className="">
-          <aside class="react-page-heading">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1 class="react-page-heading-lead">
+          <aside className="react-page-heading">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <h1 className="react-page-heading-lead">
                     React App <i className="icon-cross">&mdash;</i> Pusher Chatkit
-                    <span class="react-border"></span>
+                    <span className="react-border"></span>
                   </h1>
                   
                 </div>

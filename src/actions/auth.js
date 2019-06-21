@@ -13,8 +13,8 @@ export const userLoggedOut = () => ({
 
 export const login = credentials => dispatch =>
   api.user.login(credentials).then(user => {
+    console.log("user ", user);
     localStorage.reactJWT = user.token;
-    localStorage.chatkitToken = user.chatkitData.body.access_token;
     setAuthorizationHeader(user.token);
     dispatch(userLoggedIn(user));
   })
