@@ -6,7 +6,7 @@
     "@pusher/chatkit": "^0.7.18",
     "aws-amplify": "^1.1.17",
     "aws-amplify-react": "^2.2.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "compression": "^1.7.4",
     "express": "^4.16.4",
     "jwt-decode": "^2.2.0",
